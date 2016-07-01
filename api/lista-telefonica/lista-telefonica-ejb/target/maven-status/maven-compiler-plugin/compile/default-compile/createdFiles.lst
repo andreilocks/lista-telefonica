@@ -2,9 +2,12 @@ com/tecweb/repository/AbstractRepository.class
 com/tecweb/model/Contatos.class
 com/tecweb/model/QContatosTelefones.class
 com/tecweb/service/ContatosService.class
+com/tecweb/enterprise/AbstractBuilder.class
 com/tecweb/enterprise/AbstractEntityId.class
 com/tecweb/service/AbstractService.class
+com/tecweb/model/Contatos$Builder.class
 com/tecweb/model/ContatosTelefones.class
+com/tecweb/model/ContatosTelefones$Builder.class
 com/tecweb/enterprise/ModelProducer.class
 com/tecweb/utils/CollectionsBuilder.class
 com/tecweb/repository/ContatosRepository.class

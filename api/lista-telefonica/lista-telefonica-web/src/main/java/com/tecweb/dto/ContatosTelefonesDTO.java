@@ -24,10 +24,6 @@ public class ContatosTelefonesDTO {
 
     }
 
-    public static class Builder {
-
-    }
-
     public ContatosTelefonesDTO(Long id, String telefone) {
         this.id = id;
         this.telefone = telefone;
@@ -49,6 +45,28 @@ public class ContatosTelefonesDTO {
         this.telefone = telefone;
     }
 
+    public static class Builder {
+
+        private Long id;
+        private String telefone;
+
+        public Builder id(final Long id) {
+            this.id = id;
+            return this;
+        }
+
+        public Builder telefone(final String telefone) {
+            this.telefone = telefone;
+            return this;
+        }
+
+        public ContatosTelefonesDTO build() {
+            return new ContatosTelefonesDTO(id, telefone);
+        }
+
+    }
+
+
     public static class RepresentationBuilder extends AbstractRepresentationBuilder<ContatosTelefones, ContatosTelefonesDTO, ContatosTelefones.Builder> {
 
         @Inject
@@ -64,12 +82,12 @@ public class ContatosTelefonesDTO {
 
         @Override
         public ContatosTelefones fromRepresentation(ContatosTelefonesDTO dto, ContatosTelefones.Builder builder) {
-            return null;
+            return builder.id(dto.getId()).telefone(dto.getTelefone()).build();
         }
 
         @Override
         public ContatosTelefonesDTO toRepresentation(ContatosTelefones contatosTelefones) {
-            return null;
+            return builder().id(contatosTelefones.getId()).telefone(contatosTelefones.getTelefone()).build();
         }
     }
 }
