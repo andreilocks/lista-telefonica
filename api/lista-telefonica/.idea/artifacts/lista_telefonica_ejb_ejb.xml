@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="ejb-jar" name="lista-telefonica-ejb:ejb">
+    <output-path>$PROJECT_DIR$/lista-telefonica-ejb/target</output-path>
+    <root id="archive" name="lista-telefonica-ejb.jar">
+      <element id="artifact" artifact-name="lista-telefonica-ejb:ejb exploded" />
+    </root>
+  </artifact>
+</component>

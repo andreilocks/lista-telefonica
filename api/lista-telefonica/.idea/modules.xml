@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/lista-telefonica.iml" filepath="$PROJECT_DIR$/lista-telefonica.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lista-telefonica-ear/lista-telefonica-ear.iml" filepath="$PROJECT_DIR$/lista-telefonica-ear/lista-telefonica-ear.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lista-telefonica-ejb/lista-telefonica-ejb.iml" filepath="$PROJECT_DIR$/lista-telefonica-ejb/lista-telefonica-ejb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lista-telefonica-web/lista-telefonica-web.iml" filepath="$PROJECT_DIR$/lista-telefonica-web/lista-telefonica-web.iml" />
+    </modules>
+  </component>
+</project>

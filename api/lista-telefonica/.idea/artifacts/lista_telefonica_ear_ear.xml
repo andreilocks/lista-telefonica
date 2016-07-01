@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="ear" name="lista-telefonica-ear:ear">
+    <output-path>$PROJECT_DIR$/lista-telefonica-ear/target</output-path>
+    <root id="archive" name="lista-telefonica-ear.ear">
+      <element id="artifact" artifact-name="lista-telefonica-ear:ear exploded" />
+    </root>
+  </artifact>
+</component>

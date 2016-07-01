@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="lista-telefonica-web:war">
+    <output-path>$PROJECT_DIR$/lista-telefonica-web/target</output-path>
+    <root id="archive" name="lista-telefonica-web.war">
+      <element id="artifact" artifact-name="lista-telefonica-web:war exploded" />
+    </root>
+  </artifact>
+</component>
