@@ -1,16 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ee33ebfc-fb76-4879-b25b-25eb15310fac" name="Default" comment="">
+    <list default="true" id="ee33ebfc-fb76-4879-b25b-25eb15310fac" name="Default" comment="First commit">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lista-telefonica-ejb/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lista-telefonica-ejb/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lista-telefonica-ear/target/lista-telefonica-ear.ear" afterPath="$PROJECT_DIR$/lista-telefonica-ear/target/lista-telefonica-ear.ear" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lista-telefonica-ear/target/lista-telefonica-ear/lista-telefonica-ejb.jar" afterPath="$PROJECT_DIR$/lista-telefonica-ear/target/lista-telefonica-ear/lista-telefonica-ejb.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lista-telefonica-ear/target/lista-telefonica-ear/lista-telefonica-web.war" afterPath="$PROJECT_DIR$/lista-telefonica-ear/target/lista-telefonica-ear/lista-telefonica-web.war" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lista-telefonica-ejb/target/classes/com/tecweb/model/Contatos.class" afterPath="$PROJECT_DIR$/lista-telefonica-ejb/target/classes/com/tecweb/model/Contatos.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lista-telefonica-ejb/target/classes/com/tecweb/model/ContatosTelefones.class" afterPath="$PROJECT_DIR$/lista-telefonica-ejb/target/classes/com/tecweb/model/ContatosTelefones.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lista-telefonica-ejb/target/classes/com/tecweb/model/QContatosTelefones.class" afterPath="$PROJECT_DIR$/lista-telefonica-ejb/target/classes/com/tecweb/model/QContatosTelefones.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lista-telefonica-ejb/target/classes/com/tecweb/repository/ContatosRepository.class" afterPath="$PROJECT_DIR$/lista-telefonica-ejb/target/classes/com/tecweb/repository/ContatosRepository.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lista-telefonica-web/target/classes/com/tecweb/resources/ContatosResource.class" afterPath="$PROJECT_DIR$/lista-telefonica-web/target/classes/com/tecweb/resources/ContatosResource.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lista-telefonica-ejb/target/classes/com/tecweb/model/QContatos.class" afterPath="$PROJECT_DIR$/lista-telefonica-ejb/target/classes/com/tecweb/model/QContatos.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lista-telefonica-ejb/target/lista-telefonica-ejb.jar" afterPath="$PROJECT_DIR$/lista-telefonica-ejb/target/lista-telefonica-ejb.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lista-telefonica-web/target/lista-telefonica-web.war" afterPath="$PROJECT_DIR$/lista-telefonica-web/target/lista-telefonica-web.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lista-telefonica-web/target/lista-telefonica-web/WEB-INF/classes/com/tecweb/resources/ContatosResource.class" afterPath="$PROJECT_DIR$/lista-telefonica-web/target/lista-telefonica-web/WEB-INF/classes/com/tecweb/resources/ContatosResource.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lista-telefonica-ejb/target/generated-sources/java/com/tecweb/model/QContatosTelefones.java" afterPath="$PROJECT_DIR$/lista-telefonica-ejb/target/generated-sources/java/com/tecweb/model/QContatosTelefones.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lista-telefonica-ejb/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/lista-telefonica-ejb/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lista-telefonica-web/src/main/java/com/tecweb/dto/ContatosTelefonesDTO.java" afterPath="$PROJECT_DIR$/lista-telefonica-web/src/main/java/com/tecweb/dto/ContatosTelefonesDTO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lista-telefonica-ear/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/lista-telefonica-ear/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lista-telefonica-ejb/src/main/java/com/tecweb/model/Contatos.java" afterPath="$PROJECT_DIR$/lista-telefonica-ejb/src/main/java/com/tecweb/model/Contatos.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lista-telefonica-ejb/target/generated-sources/java/com/tecweb/model/QContatos.java" afterPath="$PROJECT_DIR$/lista-telefonica-ejb/target/generated-sources/java/com/tecweb/model/QContatos.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lista-telefonica-ejb/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/lista-telefonica-ejb/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lista-telefonica-ejb/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/lista-telefonica-ejb/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lista-telefonica-web/src/main/java/com/tecweb/dto/ContatosDTO.java" afterPath="$PROJECT_DIR$/lista-telefonica-web/src/main/java/com/tecweb/dto/ContatosDTO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lista-telefonica-web/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/lista-telefonica-web/target/maven-archiver/pom.properties" />
     </list>
     <ignored path="lista-telefonica.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,12 +55,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Contatos.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Contatos.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lista-telefonica-ejb/src/main/java/com/tecweb/model/Contatos.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="56" column="17" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="17" />
-              <folding />
+            <state vertical-scroll-proportion="0.4579208">
+              <caret line="73" column="11" selection-start-line="73" selection-start-column="11" selection-end-line="73" selection-end-column="11" />
+              <folding>
+                <element signature="e#1331#1332#0" expanded="true" />
+                <element signature="e#1359#1360#0" expanded="true" />
+                <element signature="e#1401#1402#0" expanded="true" />
+                <element signature="e#1435#1436#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -60,48 +74,25 @@
         <entry file="file://$PROJECT_DIR$/lista-telefonica-web/src/main/java/com/tecweb/dto/ContatosDTO.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="84" column="9" selection-start-line="82" selection-start-column="8" selection-end-line="84" selection-end-column="9" />
+              <caret line="124" column="49" selection-start-line="124" selection-start-column="49" selection-end-line="124" selection-end-column="49" />
               <folding>
-                <element signature="e#929#930#0" expanded="true" />
-                <element signature="e#954#955#0" expanded="true" />
-                <element signature="e#988#989#0" expanded="true" />
-                <element signature="e#1016#1017#0" expanded="true" />
-                <element signature="e#1047#1048#0" expanded="true" />
-                <element signature="e#1074#1075#0" expanded="true" />
-                <element signature="e#1114#1115#0" expanded="true" />
-                <element signature="e#1146#1147#0" expanded="true" />
-                <element signature="e#1202#1203#0" expanded="true" />
-                <element signature="e#1234#1235#0" expanded="true" />
-                <element signature="e#1304#1305#0" expanded="true" />
-                <element signature="e#1346#1347#0" expanded="true" />
-                <element signature="e#1903#1904#0" expanded="true" />
-                <element signature="e#1970#1971#0" expanded="true" />
-                <element signature="e#2233#2234#0" expanded="true" />
-                <element signature="e#2277#2278#0" expanded="true" />
+                <element signature="e#1246#1247#0" expanded="true" />
+                <element signature="e#1274#1275#0" expanded="true" />
+                <element signature="e#1316#1317#0" expanded="true" />
+                <element signature="e#1350#1351#0" expanded="true" />
+                <element signature="e#2256#2257#0" expanded="true" />
+                <element signature="e#2330#2331#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ContatosTelefonesDTO.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ContatosTelefonesDTO.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lista-telefonica-web/src/main/java/com/tecweb/dto/ContatosTelefonesDTO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="3.6534653">
-              <caret line="89" column="108" selection-start-line="89" selection-start-column="108" selection-end-line="89" selection-end-column="108" />
-              <folding>
-                <element signature="e#721#722#0" expanded="true" />
-                <element signature="e#746#747#0" expanded="true" />
-                <element signature="e#780#781#0" expanded="true" />
-                <element signature="e#808#809#0" expanded="true" />
-                <element signature="e#843#844#0" expanded="true" />
-                <element signature="e#874#875#0" expanded="true" />
-                <element signature="e#922#923#0" expanded="true" />
-                <element signature="e#962#963#0" expanded="true" />
-                <element signature="e#1339#1340#0" expanded="true" />
-                <element signature="e#1408#1409#0" expanded="true" />
-                <element signature="e#1657#1658#0" expanded="true" />
-                <element signature="e#1701#1702#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.0">
+              <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -177,10 +168,10 @@
         <option value="$PROJECT_DIR$/lista-telefonica-web/src/main/java/com/tecweb/enterprise/AbstractRepresentationBuilder.java" />
         <option value="$PROJECT_DIR$/lista-telefonica-web/src/main/java/com/tecweb/resources/ContatosResource.java" />
         <option value="$PROJECT_DIR$/lista-telefonica-ejb/src/main/java/com/tecweb/repository/ContatosRepository.java" />
-        <option value="$PROJECT_DIR$/lista-telefonica-ejb/src/main/java/com/tecweb/model/Contatos.java" />
         <option value="$PROJECT_DIR$/lista-telefonica-ejb/src/main/java/com/tecweb/model/ContatosTelefones.java" />
-        <option value="$PROJECT_DIR$/lista-telefonica-web/src/main/java/com/tecweb/dto/ContatosDTO.java" />
         <option value="$PROJECT_DIR$/lista-telefonica-web/src/main/java/com/tecweb/dto/ContatosTelefonesDTO.java" />
+        <option value="$PROJECT_DIR$/lista-telefonica-web/src/main/java/com/tecweb/dto/ContatosDTO.java" />
+        <option value="$PROJECT_DIR$/lista-telefonica-ejb/src/main/java/com/tecweb/model/Contatos.java" />
       </list>
     </option>
   </component>
@@ -319,9 +310,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -375,6 +363,40 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lista-telefonica" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lista-telefonica" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lista-telefonica-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -403,6 +425,44 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="tecweb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lista-telefonica" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lista-telefonica" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lista-telefonica-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tecweb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="enterprise" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -440,8 +500,43 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lista-telefonica" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lista-telefonica" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lista-telefonica-ear" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lista-telefonica" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lista-telefonica" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lista-telefonica-ear" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="target" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -934,7 +1029,8 @@
       <updated>1467332151498</updated>
       <workItem from="1467332157009" duration="3443000" />
       <workItem from="1467336007962" duration="2625000" />
-      <workItem from="1467338737631" duration="2395000" />
+      <workItem from="1467338737631" duration="4261000" />
+      <workItem from="1467414902939" duration="1661000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1467338306331</created>
@@ -960,11 +1056,17 @@
       <option name="project" value="LOCAL" />
       <updated>1467340853457</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="First commit">
+      <created>1467341142693</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1467341142693</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8463000" />
+    <option name="totallyTimeSpent" value="11990000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -981,7 +1083,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988048" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32988048" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -991,11 +1093,11 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921174" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921174" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32921174" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921174" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32921174" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921174" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921174" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24940239" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1076,20 +1178,71 @@
     <entry file="file://$PROJECT_DIR$/lista-telefonica-ejb/src/main/java/com/tecweb/repository/AbstractRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+          <caret line="25" column="51" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lista-telefonica-ejb/src/main/java/com/tecweb/model/Contatos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="56" column="17" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="17" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#916#917#0" expanded="false" />
-            <element signature="e#955#956#0" expanded="false" />
-            <element signature="e#1007#1008#0" expanded="false" />
-            <element signature="e#1060#1061#0" expanded="false" />
-            <element signature="e#1101#1102#0" expanded="false" />
-            <element signature="e#1140#1141#0" expanded="false" />
-            <element signature="e#1178#1179#0" expanded="false" />
-            <element signature="e#1225#1226#0" expanded="false" />
-            <element signature="e#1461#1462#0" expanded="false" />
-            <element signature="e#1507#1508#0" expanded="false" />
+            <element signature="e#1331#1332#0" expanded="true" />
+            <element signature="e#1359#1360#0" expanded="true" />
+            <element signature="e#1401#1402#0" expanded="true" />
+            <element signature="e#1435#1436#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lista-telefonica-web/src/main/java/com/tecweb/dto/ContatosDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="84" column="9" selection-start-line="82" selection-start-column="8" selection-end-line="84" selection-end-column="9" />
+          <folding>
+            <element signature="e#1246#1247#0" expanded="true" />
+            <element signature="e#1274#1275#0" expanded="true" />
+            <element signature="e#1316#1317#0" expanded="true" />
+            <element signature="e#1350#1351#0" expanded="true" />
+            <element signature="e#2256#2257#0" expanded="true" />
+            <element signature="e#2330#2331#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lista-telefonica-web/src/main/java/com/tecweb/dto/ContatosTelefonesDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lista-telefonica-web/src/main/java/com/tecweb/resources/ContatosResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lista-telefonica-ejb/src/main/java/com/tecweb/repository/ContatosRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#340#341#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lista-telefonica-ejb/src/main/java/com/tecweb/repository/AbstractRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1097,7 +1250,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#1331#1332#0" expanded="true" />
+            <element signature="e#1359#1360#0" expanded="true" />
+            <element signature="e#1401#1402#0" expanded="true" />
+            <element signature="e#1435#1436#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1106,22 +1264,12 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
           <folding>
-            <element signature="e#929#930#0" expanded="true" />
-            <element signature="e#954#955#0" expanded="true" />
-            <element signature="e#988#989#0" expanded="true" />
-            <element signature="e#1016#1017#0" expanded="true" />
-            <element signature="e#1047#1048#0" expanded="true" />
-            <element signature="e#1074#1075#0" expanded="true" />
-            <element signature="e#1114#1115#0" expanded="true" />
-            <element signature="e#1146#1147#0" expanded="true" />
-            <element signature="e#1202#1203#0" expanded="true" />
-            <element signature="e#1234#1235#0" expanded="true" />
-            <element signature="e#1304#1305#0" expanded="true" />
-            <element signature="e#1346#1347#0" expanded="true" />
-            <element signature="e#1903#1904#0" expanded="true" />
-            <element signature="e#1970#1971#0" expanded="true" />
-            <element signature="e#2233#2234#0" expanded="true" />
-            <element signature="e#2277#2278#0" expanded="true" />
+            <element signature="e#1246#1247#0" expanded="true" />
+            <element signature="e#1274#1275#0" expanded="true" />
+            <element signature="e#1316#1317#0" expanded="true" />
+            <element signature="e#1350#1351#0" expanded="true" />
+            <element signature="e#2256#2257#0" expanded="true" />
+            <element signature="e#2330#2331#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1130,9 +1278,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1150,7 +1296,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1158,7 +1303,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-          <folding />
+          <folding>
+            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#340#341#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1174,12 +1322,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding>
-            <element signature="e#949#950#0" expanded="true" />
-            <element signature="e#980#981#0" expanded="true" />
-            <element signature="e#1030#1031#0" expanded="true" />
-            <element signature="e#1070#1071#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1187,7 +1329,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="93" column="26" selection-start-line="93" selection-start-column="26" selection-end-line="93" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1207,19 +1348,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#916#917#0" expanded="false" />
-            <element signature="e#955#956#0" expanded="false" />
-            <element signature="e#1007#1008#0" expanded="false" />
-            <element signature="e#1060#1061#0" expanded="false" />
-            <element signature="e#1101#1102#0" expanded="false" />
-            <element signature="e#1140#1141#0" expanded="false" />
-            <element signature="e#1178#1179#0" expanded="false" />
-            <element signature="e#1225#1226#0" expanded="false" />
-            <element signature="e#1461#1462#0" expanded="false" />
-            <element signature="e#1507#1508#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1227,9 +1356,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1237,7 +1364,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1245,7 +1371,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#1331#1332#0" expanded="true" />
+            <element signature="e#1359#1360#0" expanded="true" />
+            <element signature="e#1401#1402#0" expanded="true" />
+            <element signature="e#1435#1436#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1264,12 +1395,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding>
-            <element signature="e#949#950#0" expanded="true" />
-            <element signature="e#980#981#0" expanded="true" />
-            <element signature="e#1030#1031#0" expanded="true" />
-            <element signature="e#1070#1071#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1285,7 +1410,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1300,9 +1424,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1327,18 +1448,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lista-telefonica-web/src/main/java/com/tecweb/enterprise/ApiResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#301#302#0" expanded="false" />
-            <element signature="e#340#341#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lista-telefonica-ejb/src/main/resources/META-INF/persistence.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1351,7 +1460,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1359,7 +1467,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1407,7 +1514,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="4.440318">
           <caret line="93" column="26" selection-start-line="93" selection-start-column="26" selection-end-line="93" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1423,7 +1529,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="27" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1468,15 +1573,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2917342">
           <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lista-telefonica-ejb/src/main/java/com/tecweb/model/Contatos.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="56" column="17" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1484,12 +1580,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5332253">
           <caret line="79" column="31" selection-start-line="79" selection-start-column="31" selection-end-line="79" selection-end-column="31" />
-          <folding>
-            <element signature="e#949#950#0" expanded="true" />
-            <element signature="e#980#981#0" expanded="true" />
-            <element signature="e#1030#1031#0" expanded="true" />
-            <element signature="e#1070#1071#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1501,48 +1591,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lista-telefonica-web/src/main/java/com/tecweb/dto/ContatosDTO.java">
+    <entry file="file://$PROJECT_DIR$/lista-telefonica-web/src/main/java/com/tecweb/dto/ContatosTelefonesDTO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="84" column="9" selection-start-line="82" selection-start-column="8" selection-end-line="84" selection-end-column="9" />
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lista-telefonica-web/src/main/java/com/tecweb/enterprise/ApiResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1458671">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
-            <element signature="e#929#930#0" expanded="true" />
-            <element signature="e#954#955#0" expanded="true" />
-            <element signature="e#988#989#0" expanded="true" />
-            <element signature="e#1016#1017#0" expanded="true" />
-            <element signature="e#1047#1048#0" expanded="true" />
-            <element signature="e#1074#1075#0" expanded="true" />
-            <element signature="e#1114#1115#0" expanded="true" />
-            <element signature="e#1146#1147#0" expanded="true" />
-            <element signature="e#1202#1203#0" expanded="true" />
-            <element signature="e#1234#1235#0" expanded="true" />
-            <element signature="e#1304#1305#0" expanded="true" />
-            <element signature="e#1346#1347#0" expanded="true" />
-            <element signature="e#1903#1904#0" expanded="true" />
-            <element signature="e#1970#1971#0" expanded="true" />
-            <element signature="e#2233#2234#0" expanded="true" />
-            <element signature="e#2277#2278#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#301#302#0" expanded="false" />
+            <element signature="e#340#341#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lista-telefonica-web/src/main/java/com/tecweb/dto/ContatosTelefonesDTO.java">
+    <entry file="file://$PROJECT_DIR$/lista-telefonica-web/src/main/java/com/tecweb/dto/ContatosDTO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.6534653">
-          <caret line="89" column="108" selection-start-line="89" selection-start-column="108" selection-end-line="89" selection-end-column="108" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="124" column="49" selection-start-line="124" selection-start-column="49" selection-end-line="124" selection-end-column="49" />
           <folding>
-            <element signature="e#721#722#0" expanded="true" />
-            <element signature="e#746#747#0" expanded="true" />
-            <element signature="e#780#781#0" expanded="true" />
-            <element signature="e#808#809#0" expanded="true" />
-            <element signature="e#843#844#0" expanded="true" />
-            <element signature="e#874#875#0" expanded="true" />
-            <element signature="e#922#923#0" expanded="true" />
-            <element signature="e#962#963#0" expanded="true" />
-            <element signature="e#1339#1340#0" expanded="true" />
-            <element signature="e#1408#1409#0" expanded="true" />
-            <element signature="e#1657#1658#0" expanded="true" />
-            <element signature="e#1701#1702#0" expanded="true" />
+            <element signature="e#1246#1247#0" expanded="true" />
+            <element signature="e#1274#1275#0" expanded="true" />
+            <element signature="e#1316#1317#0" expanded="true" />
+            <element signature="e#1350#1351#0" expanded="true" />
+            <element signature="e#2256#2257#0" expanded="true" />
+            <element signature="e#2330#2331#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lista-telefonica-ejb/src/main/java/com/tecweb/model/Contatos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4579208">
+          <caret line="73" column="11" selection-start-line="73" selection-start-column="11" selection-end-line="73" selection-end-column="11" />
+          <folding>
+            <element signature="e#1331#1332#0" expanded="true" />
+            <element signature="e#1359#1360#0" expanded="true" />
+            <element signature="e#1401#1402#0" expanded="true" />
+            <element signature="e#1435#1436#0" expanded="true" />
           </folding>
         </state>
       </provider>

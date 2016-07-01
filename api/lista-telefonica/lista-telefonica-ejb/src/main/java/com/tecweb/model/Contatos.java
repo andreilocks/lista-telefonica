@@ -3,6 +3,7 @@ package com.tecweb.model;
 import com.tecweb.enterprise.AbstractBuilder;
 import com.tecweb.enterprise.AbstractEntityId;
 import com.tecweb.utils.CollectionsBuilder;
+import org.hibernate.validator.constraints.Email;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
@@ -26,6 +27,11 @@ public class Contatos implements AbstractEntityId {
     @Column(name = "nome")
     private String nome;
 
+    @Email(message = "Email inválido")
+    @NotNull(message = "O email não pode ser nulo.")
+    @Column(name = "email")
+    private String email;
+
     @OneToMany(fetch = FetchType.LAZY, mappedBy = "usuarios", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<ContatosTelefones> telefones = CollectionsBuilder.createDefaultArrayList();
 
@@ -42,6 +48,14 @@ public class Contatos implements AbstractEntityId {
 
     public void setNome(String nome) {
         this.nome = nome;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
     }
 
     public List<ContatosTelefones> getTelefones() {
@@ -78,6 +92,11 @@ public class Contatos implements AbstractEntityId {
 
         public Builder nome(final String nome) {
             entity.setNome(nome);
+            return this;
+        }
+
+        public Builder email(final String email) {
+            entity.setEmail(email);
             return this;
         }
 

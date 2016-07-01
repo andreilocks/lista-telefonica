@@ -20,6 +20,8 @@ public class QContatos extends EntityPathBase<Contatos> {
 
     public static final QContatos contatos = new QContatos("contatos");
 
+    public final StringPath email = createString("email");
+
     public final NumberPath<Long> id = createNumber("id", Long.class);
 
     public final StringPath nome = createString("nome");

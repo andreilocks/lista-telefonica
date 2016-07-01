@@ -23,15 +23,17 @@ public class ContatosDTO {
 
     private Long id;
     private String nome;
+    private String email;
     private List<ContatosTelefonesDTO> telefones;
 
     public ContatosDTO() {
 
     }
 
-    public ContatosDTO(Long id, String nome, List<ContatosTelefonesDTO> telefones) {
+    public ContatosDTO(Long id, String nome, String email, List<ContatosTelefonesDTO> telefones) {
         this.id = id;
         this.nome = nome;
+        this.email = email;
         this.telefones = telefones;
     }
 
@@ -51,6 +53,14 @@ public class ContatosDTO {
         this.nome = nome;
     }
 
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
     public List<ContatosTelefonesDTO> getTelefones() {
         return telefones;
     }
@@ -62,6 +72,7 @@ public class ContatosDTO {
     public static class Builder {
         private Long id;
         private String nome;
+        private String email;
         private List<ContatosTelefonesDTO> telefones;
 
 
@@ -75,13 +86,18 @@ public class ContatosDTO {
             return this;
         }
 
+        public Builder email(final String email) {
+            this.email = email;
+            return this;
+        }
+
         public Builder telefones(final List<ContatosTelefonesDTO> telefones) {
             this.telefones = telefones;
             return this;
         }
 
         public ContatosDTO build() {
-            return new ContatosDTO(id, nome, telefones);
+            return new ContatosDTO(id, nome, email, telefones);
         }
     }
 
@@ -100,7 +116,7 @@ public class ContatosDTO {
             if (dto.getTelefones() != null) {
                 telefones = dto.getTelefones().stream().map(telefone -> telefonesBuilder.fromRepresentation(telefone)).collect(Collectors.toList());
             }
-            Contatos contatos = builder.id(dto.getId()).nome(dto.getNome()).telefones(telefones).build();
+            Contatos contatos = builder.id(dto.getId()).nome(dto.getNome()).telefones(telefones).email(dto.getEmail()).build();
             contatos.getTelefones().stream().forEach(telefone -> telefone.setContatos(contatos));
             return contatos;
         }
@@ -111,7 +127,7 @@ public class ContatosDTO {
             if (contatos.getTelefones() != null) {
                 telefonesDTOs = contatos.getTelefones().stream().map(telefone -> telefonesBuilder.toRepresentation(telefone)).collect(Collectors.toList());
             }
-            return builder().id(contatos.getId()).nome(contatos.getNome()).telefones(telefonesDTOs).build();
+            return builder().id(contatos.getId()).nome(contatos.getNome()).email(contatos.getEmail()).telefones(telefonesDTOs).build();
         }
     }
 }
