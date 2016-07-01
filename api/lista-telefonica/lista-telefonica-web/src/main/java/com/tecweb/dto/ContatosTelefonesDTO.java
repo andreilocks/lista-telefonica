@@ -3,6 +3,8 @@ package com.tecweb.dto;
 import com.tecweb.enterprise.AbstractRepresentationBuilder;
 import com.tecweb.model.ContatosTelefones;
 
+import javax.inject.Inject;
+import javax.persistence.EntityManager;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlRootElement;
@@ -49,18 +51,24 @@ public class ContatosTelefonesDTO {
 
     public static class RepresentationBuilder extends AbstractRepresentationBuilder<ContatosTelefones, ContatosTelefonesDTO, ContatosTelefones.Builder> {
 
+        @Inject
+        EntityManager em;
+
         public static Builder builder() {
             return new Builder();
         }
 
+        public ContatosTelefones fromRepresentation(ContatosTelefonesDTO dto) {
+            return fromRepresentation(dto, dto.getId() == null ? ContatosTelefones.Builder.create() : ContatosTelefones.Builder.from(em.find(ContatosTelefones.class, dto.getId())));
+        }
 
         @Override
-        protected ContatosTelefones fromRepresentation(ContatosTelefonesDTO dto, ContatosTelefones.Builder builder) {
+        public ContatosTelefones fromRepresentation(ContatosTelefonesDTO dto, ContatosTelefones.Builder builder) {
             return null;
         }
 
         @Override
-        protected ContatosTelefonesDTO toRepresentation(ContatosTelefones contatosTelefones) {
+        public ContatosTelefonesDTO toRepresentation(ContatosTelefones contatosTelefones) {
             return null;
         }
     }

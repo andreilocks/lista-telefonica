@@ -20,6 +20,11 @@ public class ContatosTelefones implements AbstractEntityId {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "contatos_id")
+    private Contatos contatos;
+
+
     @NotNull(message = "O telefone não pode ser nulo.")
     @Column(name = "telefone")
     private String telefone;
@@ -34,6 +39,14 @@ public class ContatosTelefones implements AbstractEntityId {
 
     public void setId(Long id) {
         this.id = id;
+    }
+
+    public Contatos getContatos() {
+        return contatos;
+    }
+
+    public void setContatos(Contatos contatos) {
+        this.contatos = contatos;
     }
 
     public String getTelefone() {
@@ -60,6 +73,11 @@ public class ContatosTelefones implements AbstractEntityId {
 
         public Builder id(final Long id) {
             entity.setId(id);
+            return this;
+        }
+
+        public Builder contatos(final Contatos contatos) {
+            entity.setContatos(contatos);
             return this;
         }
 

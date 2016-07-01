@@ -3,6 +3,8 @@ package com.tecweb.repository;
 import com.tecweb.model.Contatos;
 import com.tecweb.model.QContatos;
 
+import javax.inject.Named;
+
 /**
  * Created by andrei on 30/06/16.
  */

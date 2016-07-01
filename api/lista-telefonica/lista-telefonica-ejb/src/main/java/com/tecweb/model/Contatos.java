@@ -54,7 +54,7 @@ public class Contatos implements AbstractEntityId {
 
     @Override
     public Long getId() {
-        return null;
+        return id;
     }
 
     public static class Builder extends AbstractBuilder<Contatos, Builder> {
@@ -78,6 +78,11 @@ public class Contatos implements AbstractEntityId {
 
         public Builder nome(final String nome) {
             entity.setNome(nome);
+            return this;
+        }
+
+        public Builder telefones(final List<ContatosTelefones> telefones) {
+            entity.setTelefones(telefones);
             return this;
         }
     }
