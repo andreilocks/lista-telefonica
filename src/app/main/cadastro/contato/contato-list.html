@@ -1,0 +1,56 @@
+<div class="panel panel-default">
+    <div class="panel-body">
+        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular-animate.js"></script>
+        <script src="//angular-ui.github.io/bootstrap/ui-bootstrap-tpls-1.1.1.js"></script>
+        <div class="row">
+            <div class="col-md-3">
+                <button type="button" class="btn btn-success" ng-click="vm.open()"><span class="glyphicon glyphicon-plus"></span> Adicionar</button>
+            </div>
+            <div class="col-md-4 col-md-offset-4">
+                <input type="text" ng-model="vm.search" class="form-control" />
+            </div>
+        </div>
+        <br/>
+        <ng-messages for="vm.search" role="alert">
+            <ng-message when="stringValue">...</ng-message>
+            <ng-message when="stringValue1, stringValue2, ...">...</ng-message>
+        </ng-messages>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th class="col-md-5">Nome</th>
+                    <th class="col-md-5">Email</th>
+                    <th class="col-md-2"></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat-start="item in vm.contatos | filter:vm.search" ng-dblclick="item.open= !item.open">
+                    <td>{{item.nome}}</td>
+                    <td>{{item.email}}</td>
+                    <td class="text-center">
+                        <button class="btn btn-default" type="button" ng-click="vm.open($index)">Editar</button>
+                        <button class="btn btn-default" type="button" data-ng-click="vm.remove($index)">Excluir</button>
+                    </td>
+                </tr>
+                <tr ng-repeat-end data-ng-show="item.open">
+                  <td colspan="3">
+                    <table class="table">
+                      <thead>
+                      <tr>
+                        <th class="col-md-12">Telefone</th>
+                      </tr>
+                      </thead>
+                      <tbody>
+                        <tr data-ng-repeat="telefone in item.telefones">
+                          <td>{{telefone.telefone}}</td>
+
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

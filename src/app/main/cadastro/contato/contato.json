@@ -1,0 +1,30 @@
+[
+  {
+    "id": id++,
+    "nome": 'André',
+    "telefones": [
+      {
+        "id": id++,
+        "telefone": "8899-1010"
+      },
+      {
+        "id": id++,
+        "telefone": "3441-1010"
+      }
+    ]
+  },
+  {
+    "id": id++,
+    "nome": 'Luana',
+    "telefones":[
+      {
+        "id": id++,
+        "telefone": "8811-1010"
+      },
+      {
+        "id": id++,
+        "telefone": "3312-1010"
+      }
+    ]
+  }
+];
